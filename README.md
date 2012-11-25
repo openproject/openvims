@@ -2,5 +2,9 @@ openvims
 ========
 open vim scripts
 
-整理常用vim插件
+use step:
+1. git clone https://github.com/openproject/openvims.git .vim
 
+2. git submoudle init
+
+3. git submoudle update
