@@ -7,3 +7,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/space"]
+	path = bundle/space
+	url = https://github.com/spiiph/vim-space.git
