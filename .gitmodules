@@ -22,3 +22,6 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/vim-scripts/Tagbar.git
+[submodule "bundle/easygrep"]
+	path = bundle/easygrep
+	url = https://github.com/gmccreight/vim-easygrep.git
