@@ -22,6 +22,10 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" tags settting
+set tags=tags;
+set autochdir
+
 let NERDTreeChristmasTree=1
 let NERDTreeMouseMode=2
 let NERDTreeHighlightCursorline=0
