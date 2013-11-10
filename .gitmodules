@@ -25,3 +25,6 @@
 [submodule "bundle/easygrep"]
 	path = bundle/easygrep
 	url = https://github.com/gmccreight/vim-easygrep.git
+[submodule "bundle/mark"]
+	path = bundle/mark
+	url = https://github.com/jkeylu/mark2666.git
