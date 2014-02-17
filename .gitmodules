@@ -28,3 +28,6 @@
 [submodule "bundle/mark"]
 	path = bundle/mark
 	url = https://github.com/jkeylu/mark2666.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim
