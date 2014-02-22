@@ -65,3 +65,10 @@ set laststatus=2
 set noshowmode
 set t_Co=256
 let g:airline#extensions#tabline#enabled = 1
+
+" 设置alt+左右键切换标签
+nnoremap <silent> <M-left> gT
+nnoremap <silent> <M-right> gt
+" 设置ctrl+左右键切换缓冲区
+nnoremap <silent> <C-left> :bNext<cr>
+nnoremap <silent> <C-right> :bnext<cr>
