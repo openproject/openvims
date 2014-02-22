@@ -59,3 +59,9 @@ let g:solarized_bold=1
 let g:solarized_diffmode="normal"
 let g:solarized_hitrail=0
 let g:solarized_menu=1
+
+" Airline
+set laststatus=2
+set noshowmode
+set t_Co=256
+let g:airline#extensions#tabline#enabled = 1
