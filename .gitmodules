@@ -37,3 +37,6 @@
 [submodule "bundle/easymotion"]
 	path = bundle/easymotion
 	url = https://github.com/vim-scripts/EasyMotion.git
+[submodule "bundle/visincr"]
+	path = bundle/visincr
+	url = https://github.com/vim-scripts/VisIncr.git
