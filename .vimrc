@@ -65,6 +65,7 @@ set laststatus=2
 set noshowmode
 set t_Co=256
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " 设置alt+左右键切换标签
 nnoremap <silent> <M-left> gT
