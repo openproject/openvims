@@ -9,12 +9,13 @@ call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+" basic config
 set nu
-set tabstop=4
 set hlsearch
 set incsearch
-set shiftwidth=4
 set autoindent
+set tabstop=4
+set shiftwidth=4
 set expandtab
 set mouse=n
 
@@ -36,6 +37,18 @@ let NERDSpaceDelims=1
 map <F2> :silent! NERDTreeToggle<CR>
 map <F8> :silent! TagbarToggle<CR>
 map <F9> :silent! FufCoverageFile<CR>
+
+" 保存上次文件打开位置
+map _u :call ID_search()<Bar>execute "/\\<" . g:word . "\\>"<CR>
+map _n :n<Bar>execute "/\\<" . g:word . "\\>"<CR>
+function ID_search()
+    let g:word = expand("<cword>")
+    let x = system("lid --key=none ". g:word)
+    let x = substitute(x, "\n", " ", "g")
+    execute "next " . x
+endfun
+au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal g'\"" | endif
+autocmd BufWritePre * :%s/\s\+$//e
 
 " 配色方案
 if has("gui_running")
