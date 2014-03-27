@@ -86,3 +86,12 @@ nnoremap <silent> <M-right> gt
 " 设置ctrl+左右键切换缓冲区
 nnoremap <silent> <C-left> :bNext<cr>
 nnoremap <silent> <C-right> :bnext<cr>
+
+" start screen 自定义Header
+let g:startify_custom_header = [
+    \'   *********************************************',
+    \'   *****************OPEN VIMS*******************',
+    \'   *************Author Hy JayFeng***************',
+    \'   ************email:673592063@qq.com***********',
+    \'   *********************************************',
+    \'']
